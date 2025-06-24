@@ -1,9 +1,13 @@
-name: directory-listing
+name: Directory Listing
 on:
   push:
     branches:
       - main
   workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   pages-directory-listing:
@@ -14,28 +18,23 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main #checkout different branch
-
       - name: Generate Directory Listings
         uses: jayanta525/github-pages-directory-listing@v4.0.0
         with:
           FOLDER: . #directory to generate index
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3.0.1
         with:
           path: "." # upload generated folder
-
   deploy:
     needs: pages-directory-listing
     permissions:
       pages: write # to deploy to Pages
       id-token: write # to verify the deployment originates from an appropriate source
-
     # Deploy to the github-pages environment
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     # Specify runner + deployment step
     runs-on: ubuntu-latest
     steps:
