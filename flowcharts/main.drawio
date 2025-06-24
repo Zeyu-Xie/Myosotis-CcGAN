@@ -79,17 +79,20 @@
         <mxCell id="nx7sgeSeWj9flHu8ANc5-33" value="&lt;h1&gt;Train VGG16 / ResNet&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="420" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jcOwPH1hzw1bzo5RlWq8-1" value="T1 - VGG16 on All Images" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="jcOwPH1hzw1bzo5RlWq8-1" value="T1 - VGG16 on All Images" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="470" y="80" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jcOwPH1hzw1bzo5RlWq8-2" value="T2 - CcGAN on All Images" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="jcOwPH1hzw1bzo5RlWq8-2" value="T2 - CcGAN on All Images" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="80" y="232" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jcOwPH1hzw1bzo5RlWq8-4" value="T3 - CcGAN Generate Datasets" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="jcOwPH1hzw1bzo5RlWq8-4" value="T3 - CcGAN Generate Datasets" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="170" y="130" width="175" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jcOwPH1hzw1bzo5RlWq8-5" value="T4 - VGG16 on Argumented Datasets" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="jcOwPH1hzw1bzo5RlWq8-5" value="T4 - VGG16 on Argumented Datasets" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="450" y="247" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HRJHqE-GG1w8f1ug3zW9-1" value="T5 - VGG16 on Fake I&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 153, 51), rgb(169, 81, 0));&quot;&gt;mages&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="350" y="187" width="175" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
