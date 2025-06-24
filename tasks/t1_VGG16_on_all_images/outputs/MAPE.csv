@@ -1,0 +1,7 @@
+Filename,MAPE
+VGG16_test_size_0.2_epoch_200_batch_size_128_lr_1e-03_seed_42.csv,0.9259453807306556
+VGG16_test_size_0.2_epoch_3_batch_size_256_lr_1e-03_seed_42.csv,0.739382966733608
+VGG16_test_size_0.2_epoch_200_batch_size_512_lr_1e-03_seed_42.csv,0.9297635835917545
+VGG16_test_size_0.2_epoch_200_batch_size_256_lr_1e-03_seed_42.csv,0.9306707316066064
+VGG16_test_size_0.2_epoch_300_batch_size_256_lr_1e-03_seed_42.csv,0.9310271954956364
+VGG16_test_size_0.2_epoch_100_batch_size_256_lr_1e-03_seed_42.csv,0.9325008380255105
